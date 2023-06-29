@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <header className="py-14 bg-gradient-to-b from-black to-transparent mx-auto px-3 lg:px-36 flex justify-between items-center">
+      <header className="absolute w-full py-14 bg-gradient-to-b from-black via-black to-transparent mx-auto px-3 lg:px-36 flex justify-between items-center">
         <div>
           <Link href="/">
             <img
