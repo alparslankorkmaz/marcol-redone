@@ -7,8 +7,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="absolute w-full py-14 bg-gradient-to-b from-black via-black to-transparent mx-auto px-3 lg:px-20 flex justify-between items-center">
-        <div className="flex items-center">
+      <nav className="absolute w-full py-14 bg-gradient-to-b from-black via-black to-transparent mx-auto px-3 lg:px-28 flex justify-between items-center">
+        <div className="w-full lg:w-fit flex items-center justify-between">
           <Link href="/">
             <img
               src="/images/marcol_logo.png"
@@ -42,23 +42,27 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-        <div className="hidden lg:flex lg:text-sm lg:gap-7 tracking-wider font-extrabold text-white">
-          <Link href="/home" className="uppercase">
+        <div
+          className={` ${
+            isOpen ? "block" : "hidden"
+          } lg:flex lg:text-sm lg:gap-7 tracking-wider font-extrabold text-white bg-marcol-blue lg:bg-transparent `}
+        >
+          <Link href="/home" className="uppercase block ">
             home
           </Link>
-          <Link href="/about-us" className="uppercase">
+          <Link href="/about-us" className="uppercase block ">
             about us
           </Link>
-          <Link href="/services" className="uppercase">
+          <Link href="/services" className="uppercase block ">
             services
           </Link>
-          <Link href="/portfolio" className="uppercase">
+          <Link href="/portfolio" className="uppercase block ">
             portfolio
           </Link>
-          <Link href="/technical" className="uppercase">
+          <Link href="/technical" className="uppercase block ">
             technical
           </Link>
-          <Link href="/contact" className="uppercase">
+          <Link href="/contact" className="uppercase block ">
             contact
           </Link>
         </div>

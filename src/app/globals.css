@@ -15,7 +15,8 @@ h3,
 h4,
 h5,
 h6,
-button {
+button,
+li {
   font-family: "Archivo Black", sans-serif;
 }
 
