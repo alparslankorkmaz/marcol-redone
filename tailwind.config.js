@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         "marcol-blue": "#0052A3",
       },
+      fontFamily: {
+        archivo: ["var(--font-archivo)"],
+        black: ["var(--font-archivo_black)"],
+      },
     },
   },
   plugins: [],

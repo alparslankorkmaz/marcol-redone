@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -55,33 +54,33 @@ export default function Header() {
                   : "hidden"
               }`}
             >
-              <ul className="h-screen lg:h-auto items-center justify-center lg:flex text-3xl lg:text-sm lg:gap-7">
-                <li className="mt-6 lg:mt-0 font-extrabold tracking-wider uppercase text-white text-center lg:hover:text-marcol-blue lg:hover:bg-transparent">
+              <ul className="font-black h-screen lg:h-auto items-center justify-center lg:flex text-3xl lg:text-sm lg:gap-7">
+                <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center lg:hover:text-marcol-blue lg:hover:bg-transparent">
                   <Link href="#about" onClick={() => setNavbar(!navbar)}>
                     home
                   </Link>
                 </li>
-                <li className="mt-6 lg:mt-0 font-extrabold tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
+                <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
                   <Link href="#blog" onClick={() => setNavbar(!navbar)}>
                     about us
                   </Link>
                 </li>
-                <li className="mt-6 lg:mt-0 font-extrabold tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
+                <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
                   <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                     services
                   </Link>
                 </li>
-                <li className="mt-6 lg:mt-0 font-extrabold tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
+                <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
                   <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                     portfolio
                   </Link>
                 </li>
-                <li className="mt-6 lg:mt-0 font-extrabold tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
+                <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
                   <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                     technical
                   </Link>
                 </li>
-                <li className="mt-6 lg:mt-0 font-extrabold tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
+                <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
                   <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                     contact
                   </Link>

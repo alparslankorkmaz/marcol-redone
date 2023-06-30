@@ -1,11 +1,12 @@
+"use client";
 import Link from "next/link";
 import Hero from "@/components/Hero";
-import Carousel from "@/components/Carousel";
+import EmblaCarousel from "@/components/EmblaCarousel";
 
 export default function Home() {
   return (
     <main>
-      <Carousel />
+      <EmblaCarousel />
     </main>
   );
 }
