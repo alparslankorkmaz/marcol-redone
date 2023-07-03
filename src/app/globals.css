@@ -17,3 +17,8 @@ body {
   flex: 0 0 100%;
   min-width: 0;
 }
+
+.partners .embla__container .embla__slide {
+  flex: 0 0 35%;
+  min-width: 0;
+}
