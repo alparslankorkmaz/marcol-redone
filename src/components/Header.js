@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import { Menu } from "@headlessui/react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,38 +51,142 @@ export default function Header() {
             <div
               className={`flex-1 justify-self-center pb-3 lg:block lg:pb-0 lg:mt-0 ${
                 isOpen
-                  ? "p-12 rounded-lg lg:p-0 block bg-marcol-blue"
+                  ? "p-12 rounded-lg lg:p-0 block bg-marcol-blue lg:bg-transparent"
                   : "hidden"
               }`}
             >
               <ul className="font-black h-screen lg:h-auto items-center justify-center lg:flex text-3xl lg:text-sm lg:gap-7">
                 <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/" onClick={() => setNavbar(!navbar)}>
                     home
                   </Link>
                 </li>
                 <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/about-us" onClick={() => setNavbar(!navbar)}>
                     about us
                   </Link>
                 </li>
                 <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/services" onClick={() => setNavbar(!navbar)}>
                     services
                   </Link>
                 </li>
-                <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
-                    portfolio
-                  </Link>
+                <li className="mt-6 lg:mt-0 relative tracking-wider text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
+                  <Menu>
+                    <Menu.Button>PORTFOLIO ˅</Menu.Button>
+                    <Menu.Items className="flex w-full z-10 font-black font-light overflow-y-auto h-44 lg:overflow-y-hidden lg:h-fit flex-col gap-3 p-5 bg-marcol-blue text-start text-white absolute border border-blue-200 lg:border-none lg:w-72">
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            className={`${active && "border-b border-white"}`}
+                            href="/scrubbing-systems"
+                          >
+                            Scrubbing Systems
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            className={`${active && "border-b border-white"}`}
+                            href="/enclosures"
+                          >
+                            Enclosures
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            className={`${active && "border-b border-white"}`}
+                            href="/tanks-bunds"
+                          >
+                            Tanks & Bunds
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            className={`${active && "border-b border-white"}`}
+                            href="/ducting-extraction-systems"
+                          >
+                            Ducting & Extraction Systems
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            className={`${active && "border-b border-white"}`}
+                            href="/machine-guards"
+                          >
+                            Machine Guards
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            className={`${active && "border-b border-white"}`}
+                            href="/pipework"
+                          >
+                            Pipework
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            className={`${active && "border-b border-white"}`}
+                            href="/bespoke-fabrication"
+                          >
+                            Bespoke Fabrication
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            className={`${active && "border-b border-white"}`}
+                            href="/installation"
+                          >
+                            Installation
+                          </Link>
+                        )}
+                      </Menu.Item>
+                    </Menu.Items>
+                  </Menu>{" "}
+                </li>
+                <li className="mt-6 lg:mt-0 relative tracking-wider text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
+                  <Menu>
+                    <Menu.Button>TECHNICAL ˅</Menu.Button>
+                    <Menu.Items className="flex w-full font-black font-light overflow-y-auto h-32 lg:overflow-y-hidden lg:h-fit flex-col gap-3 p-5 bg-marcol-blue text-start text-white absolute border border-blue-200 lg:border-none lg:w-72">
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            className={`${active && "border-b border-white"}`}
+                            href="/policy-documents"
+                          >
+                            Policy Documents
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            className={`${active && "border-b border-white"}`}
+                            href="/health-safety"
+                          >
+                            Health and Safety
+                          </Link>
+                        )}
+                      </Menu.Item>
+                    </Menu.Items>
+                  </Menu>{" "}
                 </li>
                 <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
-                    technical
-                  </Link>
-                </li>
-                <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/contact" onClick={() => setNavbar(!navbar)}>
                     contact
                   </Link>
                 </li>
