@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "services": "url('/images/our_services/services_bg.jpg')",
+      },
       aspectRatio: {
         "3/2": "3 / 2",
       },
