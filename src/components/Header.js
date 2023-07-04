@@ -10,7 +10,7 @@ export default function Header() {
       <nav className="w-full bg-gradient-to-b from-black via-black to-transparent fixed top-0 left-0 right-0 z-10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl lg:items-center lg:flex lg:px-28">
           <div>
-            <div className="flex items-center justify-between py-3 lg:py-14 lg:block">
+            <div className="flex items-center justify-between py-3 lg:py-10 lg:block">
               {/* LOGO */}
               <Link href="/">
                 <img
