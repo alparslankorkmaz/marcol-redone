@@ -6,7 +6,7 @@ export default function OurTeam() {
           {" "}
           <span className="border-b-4 border-marcol-blue py-2">our</span> team
         </h4>
-        <p className="my-10">
+        <p className="my-10 font-archivo lg:text-xl">
           Our loyal and long-serving team bring a wealth of built-up knowledge
           and experience enabling us to offer an exceptionally high standard of
           work. We constantly invest in training, enabling us to provide you

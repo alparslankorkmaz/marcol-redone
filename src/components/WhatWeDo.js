@@ -8,13 +8,13 @@ export default function WhatWeDo() {
           {" "}
           <span className="border-b-4 border-marcol-blue py-2">what</span> we do
         </h2>
-        <p className="my-10 font-archivo text-lg">
+        <p className="my-10 font-archivo text-lg lg:text-xl">
           Marcol manufactures innovative plastic products for diverse
           industries, tailored to operate in various environments. Based in
           Bristol, our facilities utilise advanced welding and fusion technology
           for large-scale projects and offer short-run batch production.
         </p>
-        <p className="font-archivo text-lg">
+        <p className="font-archivo text-lg lg:text-xl">
           Our skilled staff fabricate complex shapes, promoting ongoing
           training. We provide design, manufacturing, and installation services,
           including "Turnkey Projects." Our engineers collect on-site data and

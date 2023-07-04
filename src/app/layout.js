@@ -1,5 +1,6 @@
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { Archivo_Black, Archivo } from "next/font/google";
 
 const archivo_black = Archivo_Black({
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
       <body className={`${archivo_black.variable} ${archivo.variable}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
