@@ -29,7 +29,7 @@ export default function WhatWeDo() {
               src="/images/what_we_do/scrubbing_systems.jpg"
               alt="scrubbing systems"
             />
-            <div className="absolute border-b-4 p-3 z-10 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
+            <div className="absolute border-b-4 p-3 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
               scrubbing systems
             </div>
           </Link>
@@ -37,7 +37,7 @@ export default function WhatWeDo() {
         <div className="enclosures col-span-4 lg:col-span-1">
           <Link href="/" className="relative">
             <img src="/images/what_we_do/enclosures.jpg" alt="enclosures" />
-            <div className="absolute border-b-4 p-3 z-10 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
+            <div className="absolute border-b-4 p-3 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
               enclosures
             </div>
           </Link>
@@ -48,7 +48,7 @@ export default function WhatWeDo() {
               src="/images/what_we_do/tanks_bunds.jpg"
               alt="tanks and bunds"
             />
-            <div className="absolute border-b-4 p-3 z-10 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
+            <div className="absolute border-b-4 p-3 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
               tanks & bunds
             </div>
           </Link>
@@ -59,7 +59,7 @@ export default function WhatWeDo() {
               src="/images/what_we_do/ducting_extraction.jpg"
               alt="extraction systems"
             />
-            <div className="absolute border-b-4 p-3 z-10 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
+            <div className="absolute border-b-4 p-3 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
               ducting & <span className="block">extraction systems</span>
             </div>
           </Link>
@@ -70,7 +70,7 @@ export default function WhatWeDo() {
               src="/images/what_we_do/machine_guards.jpg"
               alt="machine guards"
             />
-            <div className="absolute border-b-4 p-3 z-10 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
+            <div className="absolute border-b-4 p-3 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
               machine guards
             </div>
           </Link>
@@ -78,7 +78,7 @@ export default function WhatWeDo() {
         <div className="pipework col-span-4 lg:col-span-1">
           <Link href="/" className="relative">
             <img src="/images/what_we_do/pipework.jpg" alt="pipework" />
-            <div className="absolute border-b-4 p-3 z-10 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
+            <div className="absolute border-b-4 p-3 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
               pipework
             </div>
           </Link>
@@ -89,7 +89,7 @@ export default function WhatWeDo() {
               src="/images/what_we_do/bespoke_fabrication.jpg"
               alt="bespoke fabrication"
             />
-            <div className="absolute border-b-4 p-3 z-10 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
+            <div className="absolute border-b-4 p-3 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
               bespoke fabrication
             </div>
           </Link>
@@ -97,7 +97,7 @@ export default function WhatWeDo() {
         <div className="installation col-span-4 lg:col-span-1">
           <Link href="/" className="relative">
             <img src="/images/what_we_do/installation.jpg" alt="installation" />
-            <div className="absolute border-b-4 p-3 z-10 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
+            <div className="absolute border-b-4 p-3 font-black text-3xl lg:text-base tracking-wider whitespace-nowrap text-white bottom-4 left-1/2 -translate-x-1/2 uppercase">
               installation
             </div>
           </Link>
