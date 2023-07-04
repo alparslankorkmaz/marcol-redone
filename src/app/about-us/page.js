@@ -121,11 +121,12 @@ export default function AboutUs() {
           </div>
           <div className="col-span-5 lg:col-span-3 flex items-center">
             <p className="font-archivo text-lg lg:text-xl">
-              With over 37 years worth of experience working at the "coalface"
-              of the industry, Colin has proven himself time and again. Having
-              worked with numerous different industries he brings a wealth of
-              knowledge to the company, and now, as one of the directors at
-              Marcol.
+              17 years’ experience in plastic fabrication. From a fabricator on
+              the workshop floor here at Marcol, Rich progressed to workshop
+              supervisor and then project manager. Interoperating customers’
+              requirements and assisting with design using 3D modelling
+              software. Successfully managing and delivering projects with some
+              of the UK biggest companies.{" "}
             </p>
           </div>
         </div>
