@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function WhatWeDo() {
   return (
     <>
-      <div className="bg-white p-10 lg:p-24">
+      <div className="p-10 lg:p-24">
         <h2 className="font-black text-4xl uppercase">
           {" "}
           <span className="border-b-4 border-marcol-blue py-2">what</span> we do
