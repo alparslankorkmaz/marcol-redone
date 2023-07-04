@@ -1,7 +1,7 @@
 export default function OurServices() {
   return (
     <>
-      <div className="p-5 lg:p-10 our-services bg-services bg-cover bg-no-repeat bg-center relative my-20">
+      <div className="p-5 lg:p-20 our-services bg-services bg-cover bg-no-repeat bg-center relative my-20">
         <div className="services-text bg-white p-5 lg:p-14 bg-opacity-80 ">
           <h3 className="font-black text-4xl uppercase whitespace-nowrap">
             {" "}
