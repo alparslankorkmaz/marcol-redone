@@ -57,17 +57,17 @@ export default function Header() {
             >
               <ul className="font-black h-screen lg:h-auto items-center justify-center lg:flex text-3xl lg:text-sm lg:gap-7">
                 <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/" onClick={() => setIsOpen(false)}>
                     home
                   </Link>
                 </li>
                 <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="/about-us" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/about-us" onClick={() => setIsOpen(false)}>
                     about us
                   </Link>
                 </li>
                 <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="/services" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/services" onClick={() => setIsOpen(false)}>
                     services
                   </Link>
                 </li>
@@ -186,7 +186,7 @@ export default function Header() {
                   </Menu>{" "}
                 </li>
                 <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="/contact" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/contact" onClick={() => setIsOpen(false)}>
                     contact
                   </Link>
                 </li>
