@@ -1,3 +1,6 @@
+"use client";
+import Partners from "@/components/Partners";
+
 export default function AboutUs() {
   return (
     <>
@@ -15,6 +18,8 @@ export default function AboutUs() {
           </span>{" "}
         </h1>
       </div>
+      {/* PARTNERS */}
+      <Partners />
       {/* OUR HISTORY */}
       <div className="p-10 lg:p-24">
         <h2 className="font-black text-4xl uppercase">
