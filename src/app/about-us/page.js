@@ -6,7 +6,7 @@ export default function AboutUs() {
     <>
       <div className="relative">
         <img
-          src="/images/about-us.jpg"
+          src="/images/about_us.jpg"
           alt="closeup pipe"
           className="min-h-screen object-cover"
         />

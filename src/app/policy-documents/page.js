@@ -8,7 +8,7 @@ export default function PolicyDocuments() {
       <div className="relative">
         <img
           src="/images/policy.jpg"
-          alt="closeup pipe"
+          alt="man in suit signing papers"
           className="min-h-screen object-cover"
         />
         <h1 className="font-black lg absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 uppercase text-center text-white text-5xl lg:text-7xl tracking-widest">

@@ -8,7 +8,7 @@ export default function Services() {
       <div className="relative">
         <img
           src="/images/services.jpg"
-          alt="closeup pipe"
+          alt="blueprint on paper"
           className="min-h-screen object-cover"
         />
         <h1 className="font-black lg:whitespace-nowrap absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 uppercase text-center text-white text-5xl lg:text-7xl tracking-widest">

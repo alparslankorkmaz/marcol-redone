@@ -176,7 +176,7 @@ export default function Header() {
                         {({ active }) => (
                           <Link
                             className={`${active && "border-b border-white"}`}
-                            href="/health-safety"
+                            href="/health-and-safety"
                           >
                             Health and Safety
                           </Link>
@@ -186,7 +186,7 @@ export default function Header() {
                   </Menu>{" "}
                 </li>
                 <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
-                  <Link href="/contact" onClick={() => setIsOpen(false)}>
+                  <Link href="/contact-us" onClick={() => setIsOpen(false)}>
                     contact
                   </Link>
                 </li>

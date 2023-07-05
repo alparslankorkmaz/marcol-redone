@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  env: {
+    formKey: "xzblbpwr",
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
