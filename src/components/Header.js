@@ -74,7 +74,7 @@ export default function Header() {
                 <li className="mt-6 lg:mt-0 relative tracking-wider text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
                   <Menu>
                     <Menu.Button>PORTFOLIO ˅</Menu.Button>
-                    <Menu.Items className="flex w-full z-10 font-black font-light overflow-y-auto h-44 lg:overflow-y-hidden lg:h-fit flex-col gap-3 p-5 bg-marcol-blue text-start text-white absolute border border-blue-200 lg:border-none lg:w-64">
+                    <Menu.Items className="flex w-full z-10 font-black font-light overflow-y-auto h-60 lg:overflow-y-hidden lg:h-fit flex-col gap-3 p-5 bg-marcol-blue text-start text-white absolute border border-blue-200 lg:border-none lg:w-64">
                       <Menu.Item>
                         {({ active }) => (
                           <Link
