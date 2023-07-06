@@ -11,24 +11,12 @@ import DuctingAndExtractionSystems from "@/components/DuctingAndExtractionSystem
 import MachineGuards from "@/components/MachineGuards";
 import Pipework from "@/components/Pipework";
 import BespokeFabrication from "@/components/BespokeFabrication";
-import { Inspiration } from "next/font/google";
 import Installation from "@/components/Installation";
 
 export default function Portfolio() {
-  const autoplayOptions = {
-    delay: 3500,
-  };
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay(autoplayOptions),
-  ]); // Add plugin
-
-  const scrollPrev = useCallback(() => {
-    if (emblaApi) emblaApi.scrollPrev();
-  }, [emblaApi]);
-
-  const scrollNext = useCallback(() => {
-    if (emblaApi) emblaApi.scrollNext();
-  }, [emblaApi]);
+  const OPTIONS = {};
+  const SLIDE1_COUNT = 5;
+  const SLIDE1 = Array.from(Array(SLIDE1_COUNT).keys());
 
   return (
     <>
@@ -49,7 +37,7 @@ export default function Portfolio() {
       <Partners />
       <div className="p-10 lg:p-20">
         <div className="grid justify-center items-center grid-cols-5 gap-10 lg:gap-32">
-          <ScrubbingSystems />
+          <ScrubbingSystems slides={SLIDE1} options={OPTIONS} />
           <Enclosures />
           <TanksAndBunds />
           <DuctingAndExtractionSystems />
