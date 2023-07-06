@@ -5,7 +5,7 @@ import Autoplay from "embla-carousel-autoplay";
 import React, { useState, useEffect, useCallback } from "react";
 
 import { DotButton, PrevButton, NextButton } from "./CarouselArrowsDotsButtons";
-import imageByIndex1 from "./ImageByIndex";
+import { imageByIndex1 } from "./ImageByIndex";
 
 export default function ScrubbingSystems(props) {
   const autoplayOptions = {

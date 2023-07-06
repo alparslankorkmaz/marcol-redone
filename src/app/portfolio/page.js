@@ -17,6 +17,10 @@ export default function Portfolio() {
   const OPTIONS = {};
   const SLIDE1_COUNT = 5;
   const SLIDE1 = Array.from(Array(SLIDE1_COUNT).keys());
+  const SLIDE2_COUNT = 5;
+  const SLIDE2 = Array.from(Array(SLIDE2_COUNT).keys());
+  const SLIDE3_COUNT = 5;
+  const SLIDE3 = Array.from(Array(SLIDE3_COUNT).keys());
 
   return (
     <>
@@ -38,8 +42,8 @@ export default function Portfolio() {
       <div className="p-10 lg:p-20">
         <div className="grid justify-center items-center grid-cols-5 gap-10 lg:gap-32">
           <ScrubbingSystems slides={SLIDE1} options={OPTIONS} />
-          <Enclosures />
-          <TanksAndBunds />
+          <Enclosures slides={SLIDE2} options={OPTIONS} />
+          <TanksAndBunds slides={SLIDE3} options={OPTIONS} />
           <DuctingAndExtractionSystems />
           <MachineGuards />
           <Pipework />
