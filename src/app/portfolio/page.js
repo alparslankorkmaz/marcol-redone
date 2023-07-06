@@ -21,6 +21,16 @@ export default function Portfolio() {
   const SLIDE2 = Array.from(Array(SLIDE2_COUNT).keys());
   const SLIDE3_COUNT = 5;
   const SLIDE3 = Array.from(Array(SLIDE3_COUNT).keys());
+  const SLIDE4_COUNT = 5;
+  const SLIDE4 = Array.from(Array(SLIDE4_COUNT).keys());
+  const SLIDE5_COUNT = 4;
+  const SLIDE5 = Array.from(Array(SLIDE5_COUNT).keys());
+  const SLIDE6_COUNT = 7;
+  const SLIDE6 = Array.from(Array(SLIDE6_COUNT).keys());
+  const SLIDE7_COUNT = 5;
+  const SLIDE7 = Array.from(Array(SLIDE7_COUNT).keys());
+  const SLIDE8_COUNT = 5;
+  const SLIDE8 = Array.from(Array(SLIDE8_COUNT).keys());
 
   return (
     <>
@@ -44,11 +54,11 @@ export default function Portfolio() {
           <ScrubbingSystems slides={SLIDE1} options={OPTIONS} />
           <Enclosures slides={SLIDE2} options={OPTIONS} />
           <TanksAndBunds slides={SLIDE3} options={OPTIONS} />
-          <DuctingAndExtractionSystems />
-          <MachineGuards />
-          <Pipework />
-          <BespokeFabrication />
-          <Installation />
+          <DuctingAndExtractionSystems slides={SLIDE4} options={OPTIONS} />
+          <MachineGuards slides={SLIDE5} options={OPTIONS} />
+          <Pipework slides={SLIDE6} options={OPTIONS} />
+          <BespokeFabrication slides={SLIDE7} options={OPTIONS} />
+          <Installation slides={SLIDE8} options={OPTIONS} />
         </div>
       </div>
     </>
