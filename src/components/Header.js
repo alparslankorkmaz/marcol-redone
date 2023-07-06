@@ -83,6 +83,7 @@ export default function Header() {
                           <Link
                             className={`${active && "border-b border-white"}`}
                             href={`/portfolio#scrubbing-systems`}
+                            onClick={() => setIsOpen(false)}
                           >
                             Scrubbing Systems
                           </Link>
@@ -93,6 +94,7 @@ export default function Header() {
                           <Link
                             className={`${active && "border-b border-white"}`}
                             href={`/portfolio#enclosures`}
+                            onClick={() => setIsOpen(false)}
                           >
                             Enclosures
                           </Link>
@@ -103,6 +105,7 @@ export default function Header() {
                           <Link
                             className={`${active && "border-b border-white"}`}
                             href={`/portfolio#tanks-and-bunds`}
+                            onClick={() => setIsOpen(false)}
                           >
                             Tanks & Bunds
                           </Link>
@@ -113,6 +116,7 @@ export default function Header() {
                           <Link
                             className={`${active && "border-b border-white"}`}
                             href={`/portfolio#ducting-and-extraction-systems`}
+                            onClick={() => setIsOpen(false)}
                           >
                             Ducting & Extraction Systems
                           </Link>
@@ -123,6 +127,7 @@ export default function Header() {
                           <Link
                             className={`${active && "border-b border-white"}`}
                             href={`/portfolio#machine-guards`}
+                            onClick={() => setIsOpen(false)}
                           >
                             Machine Guards
                           </Link>
@@ -133,6 +138,7 @@ export default function Header() {
                           <Link
                             className={`${active && "border-b border-white"}`}
                             href={`/portfolio#pipework`}
+                            onClick={() => setIsOpen(false)}
                           >
                             Pipework
                           </Link>
@@ -143,6 +149,7 @@ export default function Header() {
                           <Link
                             className={`${active && "border-b border-white"}`}
                             href={`/portfolio#bespoke-fabrication`}
+                            onClick={() => setIsOpen(false)}
                           >
                             Bespoke Fabrication
                           </Link>
@@ -153,6 +160,7 @@ export default function Header() {
                           <Link
                             className={`${active && "border-b border-white"}`}
                             href={`/portfolio#installation`}
+                            onClick={() => setIsOpen(false)}
                           >
                             Installation
                           </Link>
@@ -170,6 +178,7 @@ export default function Header() {
                           <Link
                             className={`${active && "border-b border-white"}`}
                             href="/policy-documents"
+                            onClick={() => setIsOpen(false)}
                           >
                             Policy Documents
                           </Link>
@@ -180,6 +189,7 @@ export default function Header() {
                           <Link
                             className={`${active && "border-b border-white"}`}
                             href="/health-and-safety"
+                            onClick={() => setIsOpen(false)}
                           >
                             Health and Safety
                           </Link>

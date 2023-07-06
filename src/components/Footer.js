@@ -64,7 +64,7 @@ export default function Footer() {
                 <div className="flex underline items-center">
                   <img
                     src="/images/icons/phone.png"
-                    alt="location pin"
+                    alt="phone icon"
                     className="mx-5 w-5 h-5"
                   />
                   <p>01275 810022</p>
@@ -72,7 +72,7 @@ export default function Footer() {
                 <div className="flex items-center">
                   <img
                     src="/images/icons/phone.png"
-                    alt="location pin"
+                    alt="phone icon"
                     className="mx-5 w-5 h-5"
                   />
                   <p>01275 810033</p>
@@ -80,7 +80,7 @@ export default function Footer() {
                 <div className="flex underline items-center">
                   <img
                     src="/images/icons/mail.png"
-                    alt="location pin"
+                    alt="mail icon"
                     className="mx-5 w-6 h-4"
                   />
                   <Link href="/">info@marcolplastics.co.uk</Link>
