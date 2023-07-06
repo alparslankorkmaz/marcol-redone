@@ -36,13 +36,17 @@ export default function Footer() {
                 portfolio
               </p>
               <div className="flex gap-1 flex-col text-lg lg:text-xl lg:font-light font-archivo capitalize text-white">
-                <Link href="/">scrubbing systems</Link>
-                <Link href="/">enclosures</Link>
-                <Link href="/">tanks and bunds</Link>
-                <Link href="/">machine guards</Link>
-                <Link href="/">pipework</Link>
-                <Link href="/">bespoke fabrication</Link>
-                <Link href="/">installation</Link>
+                <Link href={`/portfolio#scrubbing-systems`}>
+                  scrubbing systems
+                </Link>
+                <Link href={`/portfolio#enclosures`}>enclosures</Link>
+                <Link href={`/portfolio#tanks-and-bunds`}>tanks and bunds</Link>
+                <Link href={`/portfolio#machine-guards`}>machine guards</Link>
+                <Link href={`/portfolio#pipework`}>pipework</Link>
+                <Link href={`/portfolio#bespoke-fabrication`}>
+                  bespoke fabrication
+                </Link>
+                <Link href={`/portfolio#installation`}>installation</Link>
               </div>
             </div>
             <div className="col-span-3 lg:col-span-1">
@@ -56,10 +60,13 @@ export default function Footer() {
                     alt="location pin"
                     className="mx-5 w-px-5 h-5"
                   />
-                  <Link href="/">
+                  <a
+                    href="https://www.google.com/maps/place/Marcol+Fabrications+(Plastics)+Ltd/@51.438221,-2.752899,11z/data=!4m6!3m5!1s0x4871f3ad0a39d393:0xe4595afc0a3bfb7d!8m2!3d51.4382207!4d-2.7528989!16s%2Fg%2F1vfwc999?hl=en-GB&entry=ttu"
+                    target="_blank"
+                  >
                     Unit 10 Southfield Road Trading Estate Nailsea, Bristol,
                     BS48 1JJ
-                  </Link>
+                  </a>
                 </div>
                 <div className="flex underline items-center">
                   <img
@@ -83,7 +90,9 @@ export default function Footer() {
                     alt="mail icon"
                     className="mx-5 w-6 h-4"
                   />
-                  <Link href="/">info@marcolplastics.co.uk</Link>
+                  <a href="mailto: info@marcolplastics.co.uk">
+                    info@marcolplastics.co.uk
+                  </a>
                 </div>
               </div>
             </div>

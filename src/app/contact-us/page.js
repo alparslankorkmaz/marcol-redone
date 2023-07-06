@@ -68,7 +68,9 @@ export default function ContactUs() {
             </div>
             <div className="font-archivo mb-5 text-lg lg:text-xl">
               <p className="font-bold">Our Email</p>
-              <p>info@marcolplastics.co.uk </p>
+              <a href="mailto: info@marcolplastics.co.uk">
+                info@marcolplastics.co.uk
+              </a>
             </div>
           </div>
         </div>
@@ -234,7 +236,9 @@ export default function ContactUs() {
           </div>
           <div className="font-archivo mb-5 text-lg lg:text-xl">
             <p className="font-bold">Our Email</p>
-            <p>info@marcolplastics.co.uk </p>
+            <a href="mailto: info@marcolplastics.co.uk">
+              info@marcolplastics.co.uk
+            </a>
           </div>
         </div>
       </div>
