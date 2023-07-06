@@ -17,18 +17,18 @@ export default function Footer() {
               </p>
               <div className="flex gap-1 flex-col text-lg lg:text-xl lg:font-light font-archivo capitalize text-white">
                 <Link href="/">home</Link>
-                <Link href="/">about us</Link>
-                <Link href="/">services</Link>
+                <Link href="/about-us">about us</Link>
+                <Link href="/services">services</Link>
                 <ul className="list-disc list-inside">
                   technical
                   <li>
-                    <Link href="/">policy documents</Link>
+                    <Link href="/policy-documents">policy documents</Link>
                   </li>
                   <li>
-                    <Link href="/">health and safety</Link>
+                    <Link href="/health-and-safety">health and safety</Link>
                   </li>
                 </ul>
-                <Link href="/">contact us</Link>
+                <Link href="/contact-us">contact us</Link>
               </div>
             </div>
             <div className="col-span-3 lg:col-span-1">

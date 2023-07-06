@@ -28,7 +28,7 @@ export default function EmblaCarousel() {
             marcol fabrications
           </h1>
           <Link
-            href="/contact"
+            href="/contact-us"
             className="px-5 py-2 lg:px-9 lg:py-4 text-white bg-marcol-blue font-archivo text-xl font-light absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-28 uppercase text-center"
           >
             get in touch
@@ -51,7 +51,7 @@ export default function EmblaCarousel() {
             </span>
           </h2>
           <Link
-            href="/contact"
+            href="/contact-us"
             className="px-5 py-2 lg:px-9 lg:py-4 text-white bg-marcol-blue font-archivo text-xl font-light absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-28 uppercase text-center"
           >
             get in touch
@@ -74,7 +74,7 @@ export default function EmblaCarousel() {
             </span>
           </h3>
           <Link
-            href="/contact"
+            href="/contact-us"
             className="px-5 py-2 lg:px-9 lg:py-4 text-white bg-marcol-blue font-archivo text-xl font-light absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-28 uppercase text-center"
           >
             get in touch
@@ -97,7 +97,7 @@ export default function EmblaCarousel() {
             </span>
           </h4>
           <Link
-            href="/contact"
+            href="/contact-us"
             className="px-5 py-2 lg:px-9 lg:py-4 text-white bg-marcol-blue font-archivo text-xl font-light absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-36 uppercase text-center"
           >
             get in touch
