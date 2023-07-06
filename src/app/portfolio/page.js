@@ -50,7 +50,7 @@ export default function Portfolio() {
       {/* PARTNERS */}
       <Partners />
       <div className="p-10 lg:p-20">
-        <div className="grid justify-center items-center grid-cols-5 gap-10 lg:gap-32">
+        <div className="grid justify-center items-center grid-cols-5 gap-10 lg:gap-32 my-20">
           <ScrubbingSystems slides={SLIDE1} options={OPTIONS} />
           <Enclosures slides={SLIDE2} options={OPTIONS} />
           <TanksAndBunds slides={SLIDE3} options={OPTIONS} />

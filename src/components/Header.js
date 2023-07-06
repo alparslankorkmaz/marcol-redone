@@ -1,10 +1,13 @@
 "use client";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useState } from "react";
 import { Menu } from "@headlessui/react";
+import { Londrina_Sketch } from "next/font/google";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div>
       <nav className="w-full bg-gradient-to-b from-black via-slate-950 to-transparent absolute top-0 left-0 right-0 z-10">
@@ -79,7 +82,7 @@ export default function Header() {
                         {({ active }) => (
                           <Link
                             className={`${active && "border-b border-white"}`}
-                            href="/scrubbing-systems"
+                            href={`/portfolio#scrubbing-systems`}
                           >
                             Scrubbing Systems
                           </Link>
@@ -89,7 +92,7 @@ export default function Header() {
                         {({ active }) => (
                           <Link
                             className={`${active && "border-b border-white"}`}
-                            href="/enclosures"
+                            href={`/portfolio#enclosures`}
                           >
                             Enclosures
                           </Link>
@@ -99,7 +102,7 @@ export default function Header() {
                         {({ active }) => (
                           <Link
                             className={`${active && "border-b border-white"}`}
-                            href="/tanks-bunds"
+                            href={`/portfolio#tanks-and-bunds`}
                           >
                             Tanks & Bunds
                           </Link>
@@ -109,7 +112,7 @@ export default function Header() {
                         {({ active }) => (
                           <Link
                             className={`${active && "border-b border-white"}`}
-                            href="/ducting-extraction-systems"
+                            href={`/portfolio#ducting-and-extraction-systems`}
                           >
                             Ducting & Extraction Systems
                           </Link>
@@ -119,7 +122,7 @@ export default function Header() {
                         {({ active }) => (
                           <Link
                             className={`${active && "border-b border-white"}`}
-                            href="/machine-guards"
+                            href={`/portfolio#machine-guards`}
                           >
                             Machine Guards
                           </Link>
@@ -129,7 +132,7 @@ export default function Header() {
                         {({ active }) => (
                           <Link
                             className={`${active && "border-b border-white"}`}
-                            href="/pipework"
+                            href={`/portfolio#pipework`}
                           >
                             Pipework
                           </Link>
@@ -139,7 +142,7 @@ export default function Header() {
                         {({ active }) => (
                           <Link
                             className={`${active && "border-b border-white"}`}
-                            href="/bespoke-fabrication"
+                            href={`/portfolio#bespoke-fabrication`}
                           >
                             Bespoke Fabrication
                           </Link>
@@ -149,7 +152,7 @@ export default function Header() {
                         {({ active }) => (
                           <Link
                             className={`${active && "border-b border-white"}`}
-                            href="/installation"
+                            href={`/portfolio#installation`}
                           >
                             Installation
                           </Link>
