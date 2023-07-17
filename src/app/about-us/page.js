@@ -78,8 +78,8 @@ export default function AboutUs() {
           very good hands.{" "}
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-32 lg:gap-10 m-10 lg:mx-20">
-        {/* COLIN */}
+
+      {/* <div className="grid grid-cols-3 gap-32 lg:gap-10 m-10 lg:mx-20">
         <div className="grid grid-cols-5 col-span-3 gap-10 lg:gap-20">
           <div className="bg-colin col-span-5 lg:col-span-2 bg-cover bg-no-repeat bg-center h-96 flex flex-col justify-end items-center">
             <div className="text-center mb-5 border-b-8 p-3 font-black text-xl lg:text-2xl tracking-wider whitespace-nowrap text-white uppercase">
@@ -97,7 +97,7 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
-        {/* MARK */}
+
         <div className="grid grid-cols-5 col-span-3 gap-10 lg:gap-20">
           <div className="bg-mark col-span-5 lg:col-span-2 bg-cover bg-no-repeat bg-center h-96 flex flex-col justify-end items-center">
             <div className="text-center mb-5 border-b-8 p-3 font-black text-xl lg:text-2xl tracking-wider whitespace-nowrap text-white uppercase">
@@ -113,7 +113,7 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
-        {/* RICHARD */}
+
         <div className="grid grid-cols-5 col-span-3 gap-10 lg:gap-20">
           <div className="bg-richard col-span-5 lg:col-span-2 bg-cover bg-no-repeat bg-center h-96 flex flex-col justify-end items-center">
             <div className="text-center mb-5 border-b-8 p-3 font-black text-xl lg:text-2xl tracking-wider whitespace-nowrap text-white uppercase">
@@ -135,7 +135,7 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
