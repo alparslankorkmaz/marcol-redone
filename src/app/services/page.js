@@ -28,8 +28,12 @@ export default function Services() {
       <Partners />
       {/* WHAT WE DO */}
       <WhatWeDo />
-      <div className="grid grid-cols-2 p-10 lg:p-20 gap-10 lg:gap-20">
+      <div className="grid container max-w-7xl mx-auto grid-cols-2 p-10 lg:p-20 gap-10 lg:gap-20">
         <div className="col-span-2 lg:col-span-1">
+          <img
+            src="/images/our_services/materials.png"
+            alt="material icon"
+          />
           <h2 className="font-black text-4xl uppercase my-10">
             {" "}
             <span className="border-b-4 border-marcol-blue py-2">mat</span>
@@ -37,90 +41,50 @@ export default function Services() {
           </h2>
           <div className="font-archivo text-lg lg:text-xl">
             <p>
-              With years of experience in fabricating Homo/Copolymer Polyprop,
-              PVC, PVDF, ABS, HDPE, and CPVC, we advise on suitable materials
-              for your application. We specialize in manufacturing and
-              installing chemical-resistant polymers for pipework, tanks, and
-              ducting systems. Our welding techniques include hot gas welding,
-              extrusion welding, heat socket weld, butt fusion, infrared welding
-              (I/F), and bead and crevice-free welding for pipework. We source
-              materials from reputable suppliers and plan lead times
-              accordingly.
-            </p>
+              We ensure the correct material selection for your project. Our in-depth material compatibility checks and documentation cover CPVC, PVDF, PVC, Polypropylene, Polyethylene, and more. Contact us for advice and alternative material options.            </p>
           </div>
         </div>
         <div className="col-span-2 lg:col-span-1">
+          <img src="/images/our_services/design.png" alt="design icon" />
           <h2 className="font-black text-4xl uppercase my-10">
-            {" "}
             <span className="border-b-4 border-marcol-blue py-2">des</span>
             ign
           </h2>
           <div className="font-archivo text-lg lg:text-xl">
             <p>
-              We provide a comprehensive design service for schemes, drawings,
-              and specifications. This covers materials, manufacturing,
-              installation methods, and adherence to relevant standards.
-              Throughout the design stage, we collaborate closely with you,
-              offering continuous feedback and enhancements.{" "}
-            </p>
-            <br />
-            <p>
-              Our skilled engineers are available to visit your workplace or
-              site, whether for a simple pipe installation or a complex
-              manufacturing project.
-            </p>
+              With our expertise and technical knowledge, we bring your conceptual or proven design to life. We work closely with you to propose strategies, plan, manufacture, and deliver/install projects according to your requirements.            </p>
           </div>
         </div>
         <div className="col-span-2 lg:col-span-1">
+          <img
+            src="/images/our_services/manufacture.png"
+            alt="manufacture icon"
+          />
           <h2 className="font-black text-4xl uppercase my-10">
-            {" "}
             <span className="border-b-4 border-marcol-blue py-2">man</span>
             ufacture
           </h2>
           <div className="font-archivo text-lg lg:text-xl">
             <p>
-              We accept customers' drawings or provide our own 3D manufacturing
-              drawings. With 30+ years of experience, we deliver quality and
-              workmanship. Our use of ITPs and QCPs enables project monitoring,
-              and a FAT is conducted at the project's end.{" "}
-            </p>
-            <br />
-            <p>
-              For cost savings, small bespoke systems can be skid-mounted before
-              delivery. We offer drawings, including P&IDs, for approval.
-            </p>
-            <br />
-            <p>
-              Skid systems pre-install and test equipment off-site, reducing
-              on-site installation costs.
-            </p>
+              At the core of our business, we combine design experience with a skilled workforce. Our manufacturing process shapes and forges products to meet your specifications, ensuring they are engineered to perfection.            </p>
           </div>
         </div>
         <div className="col-span-2 lg:col-span-1">
+          <img
+            src="/images/our_services/installation.png"
+            alt="installation icon"
+          />
           <h2 className="font-black text-4xl uppercase my-10">
-            {" "}
             <span className="border-b-4 border-marcol-blue py-2">inst</span>
             allation
           </h2>
           <div className="font-archivo text-lg lg:text-xl">
             <p>
-              Our qualified engineers work in our factory and on customer sites.
-              An equipped installation team travels nationwide and
-              internationally. All staff are fully qualified, trained, and
-              adhere to RAMs. Site-specific requirements are included in project
-              documentation.{" "}
-            </p>
-            <br />
-            <p>
-              Health and Safety is paramount. Employees receive training and
-              recognized qualifications. Our fabricators/installers hold CSCS
-              cards and CCNSG safety passports, with supervisors being first aid
-              qualified.
-            </p>
+              Our installation team, with Site Working Safety Passports, handles repairs, chemical pipe-work installation, and complete "Turnkey Projects." We cover tanks, extraction systems, dosing rigs, enclosures, and interconnection pipework.            </p>
           </div>
         </div>
       </div>
-      <div className="p-10 lg:p-20">
+      <div className="p-10 lg:p-20 container max-w-7xl mx-auto">
         <h2 className="font-black text-4xl uppercase my-10">
           {" "}
           <span className="border-b-4 border-marcol-blue py-2">mod</span>

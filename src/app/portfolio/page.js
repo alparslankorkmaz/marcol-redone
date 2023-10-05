@@ -53,7 +53,7 @@ export default function Portfolio() {
       </div>
       {/* PARTNERS */}
       <Partners />
-      <div className="p-10 lg:p-20">
+      <div className="p-10 lg:p-20 container max-w-7xl mx-auto">
         <div className="grid justify-center items-center grid-cols-5 gap-10 lg:gap-32 my-20">
           <ScrubbingSystems slides={SLIDE1} options={OPTIONS} />
           <Enclosures slides={SLIDE2} options={OPTIONS} />

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function WhatWeDo() {
   return (
     <>
-      <div className="portfolio grid grid-cols-4 gap-10 p-10 lg:p-20">
+      <div className="portfolio container max-w-7xl mx-auto grid grid-cols-4 gap-10 p-10 lg:p-20">
         <div className="scrubbing-systems flex justify-center col-span-4 lg:col-span-1">
           <Link href={`/portfolio#scrubbing-systems`} className="relative">
             <img

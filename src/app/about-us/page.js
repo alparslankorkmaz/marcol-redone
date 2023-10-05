@@ -26,61 +26,31 @@ export default function AboutUs() {
       {/* PARTNERS */}
       <Partners />
       {/* OUR HISTORY */}
-      <div className="p-10 lg:p-24">
+      <div className="p-10 lg:p-24 container max-w-7xl mx-auto">
         <h2 className="font-black text-4xl uppercase">
           {" "}
           <span className="border-b-4 border-marcol-blue py-2">our</span>{" "}
           history
         </h2>
         <p className="my-10 font-archivo text-lg lg:text-xl">
-          Marcol Fabrications, established in 1990 by directors Colin Vye and
-          Mark Godfrey, brings over 50 years of combined experience in plastic
-          fabrication/engineering. Based in Nailsea, just 8 miles from Bristol,
-          our current premises offer convenient access to major transport links,
-          including Bristol airport.{" "}
-        </p>
+          Marcol Fabrications, originally established in 1990 by Colin Vye and Mark Godfrey, grew from small beginnings in a farm building on the outskirts of Bristol.         </p>
         <p className="my-10 font-archivo text-lg lg:text-xl">
-          We prioritize excellent customer service, competitive prices, and
-          high-quality work. Our comprehensive services include in-house
-          fabrication, experienced site teams for installations, design work,
-          project management, AutoCAD/3D modeling, and site supervision. We
-          ensure that your requirements are met, adhering to the highest
-          standards and current legislation.{" "}
-        </p>
+          Getting bigger by reputation, they ensured they engaged only likeminded individuals in the formative years - and we are happy to say many of those early skilled additions are still with us. That helped ensure the expertise to service specialist markets, clients, and main and specialist contractors in all disciplines in plastic fabrication and engineering continues. Based in Nailsea since 1998, just 8 miles from Bristol, the current premises offers convenient access to major transport links, including Bristol airport.        </p>
         <p className="my-10 font-archivo text-lg lg:text-xl">
-          With a diverse client base ranging from SMEs to conglomerates, we have
-          extensive experience in various industries, including chemical,
-          utilities, nuclear, aerospace, pharmaceutical, steel, semiconductor,
-          and construction. Our accumulated expertise enables us to provide
-          solutions to complex problems.{" "}
-        </p>
-        <p className="my-10 font-archivo text-lg lg:text-xl">
-          Health and Safety is paramount to us. Our installers undergo
-          comprehensive training and hold CSCS cards and CCNSG client/contractor
-          national safety passports, with many at the supervisor level.
-          Supervisors are fully qualified in first aid.{" "}
-        </p>
+          In 2023 upon Mark and Colin’s retirement, Reacher Stanson acquired Marcol Fabrications. Reacher Stanson is a founder member of the Safety Critical Plastics Solutions Group. This specialist group consisting of businesses at the very forefront of plastic engineering ensures the proud name and reputation of Marcol Fabrications endures with the skills of its team continuing the mission to uphold the very highest standards of service through all stages of engagement with our clients new and old.        </p>
       </div>
       {/* OUR MISSION */}
-      <div className="p-10 lg:px-24">
+      <div className="p-10 lg:px-24 container max-w-7xl mx-auto">
         <h2 className="font-black text-4xl uppercase">
           {" "}
           <span className="border-b-4 border-marcol-blue py-2">our</span>{" "}
           mission
         </h2>
         <p className="my-10 font-archivo text-lg lg:text-xl">
-          To develop and expand our business in a controlled, efficient and
-          profitable manner with you, our customer, as the primary focus for all
-          our activities.{" "}
+          We strive to become the first choice supplier in plastics fabrication through our commitment to supply quality, defect-free products and services first time, every time, on time and at realistic prices.
         </p>
         <p className="my-10 font-archivo text-lg lg:text-xl">
-          To become the first choice supplier in plastics fabrication through
-          our commitment to supply quality, defect-free products and services
-          first time, every time, on the due date and at realistic prices.{" "}
-        </p>
-        <p className="my-10 font-archivo text-lg lg:text-xl">
-          If you have a problem, we have the solution. With Marcol, you are in
-          very good hands.{" "}
+          If you have a problem, we have the solution. With Marcol, you are in very good hands.
         </p>
       </div>
 

@@ -56,7 +56,6 @@ export default function ScrubbingSystems(props) {
 
   return (
     <>
-      {" "}
       <div className="col-span-5 lg:col-span-3" id="scrubbing-systems">
         <h2 className="font-black text-2xl lg:text-4xl uppercase my-10">
           {" "}

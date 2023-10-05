@@ -24,7 +24,7 @@ export default function HealthAndSafety() {
       </div>
       {/* PARTNERS */}
       <Partners />
-      <div className="font-archivo text-lg lg:text-xl p-10 lg:p-32">
+      <div className="font-archivo text-lg lg:text-xl p-10 lg:p-32 container max-w-7xl mx-auto">
         <p>
           Marcol Fabrications are committed to the implementation and practice
           of Health and Safety. In addition to our own Health and Safety Policy,

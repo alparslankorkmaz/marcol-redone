@@ -6,7 +6,7 @@ export default function Form() {
     if (state.succeeded) {
         return (
             <>
-                <div className="grid grid-cols-5 p-10 lg:p-20 gap-10">
+                <div className="grid grid-cols-5 p-10 lg:p-20 gap-10 container max-w-7xl mx-auto">
                     <div className="col-span-5 lg:col-span-3 bg-gray-100 p-10">
                         <h2 className="font-black text-4xl uppercase my-10">
                             {" "}
@@ -62,7 +62,7 @@ export default function Form() {
 
     return <>
 
-        <div className="grid grid-cols-5 p-10 lg:p-20 gap-10">
+        <div className="grid grid-cols-5 p-10 lg:p-20 gap-10 container max-w-7xl mx-auto">
             <div className="col-span-5 lg:col-span-3 bg-gray-100 p-10">
                 <h2 className="font-black text-4xl uppercase my-10">
                     {" "}
