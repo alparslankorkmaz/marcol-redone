@@ -13,7 +13,7 @@ import Installation from "@/components/Installation";
 
 export const metadata = {
   title: "Portfolio",
-  description: "Marcol manufactures innovative plastic products for diverse industries, tailored to operate in various environments. Based in Bristol, our facilities utilise advanced welding and fusion technology for large-scale projects and offer short-run batch production.",
+  description: "Explore the diverse portfolio of Marcol Plastics, a leading manufacturer and supplier in the plastics industry. Discover the innovative products and solutions offered by Marcol Plastics through their impressive portfolio.",
 };
 
 

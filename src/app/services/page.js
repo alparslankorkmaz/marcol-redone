@@ -3,7 +3,7 @@ import WhatWeDo from "@/components/WhatWeDo";
 
 export const metadata = {
   title: "Services",
-  description: "Marcol manufactures innovative plastic products for diverse industries, tailored to operate in various environments. Based in Bristol, our facilities utilise advanced welding and fusion technology for large-scale projects and offer short-run batch production.",
+  description: "Marcol Plastics offers a wide range of services including bespoke fabrication, scrubbing systems, tanks and bunds, and pipework. Learn more about our services and how we can meet your plastic manufacturing needs.",
 };
 
 

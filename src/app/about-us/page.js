@@ -2,7 +2,7 @@ import Partners from "@/components/Partners";
 
 export const metadata = {
   title: "About Us",
-  description: "Marcol manufactures innovative plastic products for diverse industries, tailored to operate in various environments. Based in Bristol, our facilities utilise advanced welding and fusion technology for large-scale projects and offer short-run batch production.",
+  description: "Marcol Plastics is a leading manufacturer of high-quality plastic products. Learn more about our company's history, values, and commitment to providing innovative solutions for our customers.",
 };
 
 

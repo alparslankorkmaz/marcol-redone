@@ -2,7 +2,7 @@ import Partners from "@/components/Partners";
 
 export const metadata = {
   title: "Health and Safety",
-  description: "Marcol manufactures innovative plastic products for diverse industries, tailored to operate in various environments. Based in Bristol, our facilities utilise advanced welding and fusion technology for large-scale projects and offer short-run batch production.",
+  description: "Marcol Plastics prioritizes health and safety in its operations. Learn more about the company's commitment to maintaining a safe working environment and its implementation of health and safety protocols.",
 };
 
 

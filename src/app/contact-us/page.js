@@ -5,7 +5,7 @@ import Form from "@/components/Form";
 
 export const metadata = {
   title: "Contact Us",
-  description: "Marcol manufactures innovative plastic products for diverse industries, tailored to operate in various environments. Based in Bristol, our facilities utilise advanced welding and fusion technology for large-scale projects and offer short-run batch production.",
+  description: "If you have any questions or inquiries about Marcol Plastics, please feel free to contact us. We are here to assist you and provide the information you need.",
 };
 
 
