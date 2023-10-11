@@ -42,7 +42,7 @@ export default function PolicyDocuments() {
           </div>
           <div className="col-span-2 lg:col-span-1 p-4 text-center underline font-archivo font-light uppercase bg-marcol-blue text-white">
             <a href="/pdf/Marcol_BUSINESS_QUALITY_AND_ENVIRONMENT_reviewed_2023.pdf" target="_blank">
-              our business quality & environmental policy
+              our business quality & environmental policy is available as a pdf here.
             </a>
           </div>
           <div className="col-span-2 lg:col-span-1 p-4 text-center underline font-archivo font-light uppercase bg-marcol-blue text-white">
