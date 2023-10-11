@@ -27,24 +27,13 @@ export default function HealthAndSafety() {
       <div className="font-archivo text-lg lg:text-xl p-10 lg:p-32 container max-w-7xl mx-auto">
         <p>
           Marcol Fabrications are committed to the implementation and practice
-          of Health and Safety. In addition to our own Health and Safety Policy,
-          which details levels of responsibility and the procedures that are in
-          place for the factory, Marcol are particularly vigilant when operating
+          of Health and Safety. In addition to our own Health and Safety Policy. Marcol are particularly vigilant when operating
           on customers sites. Full attention is paid to customers’ own Health
           and Safety rules and regulations.
         </p>
         <br />
         <p>
-          Where site induction is necessary, Marcol welcome this and ensure all
-          employees attend and understand the induction training. Where site
-          work is involved, prior to work commencing, a site survey is
-          undertaken which includes conducting and preparing risk assessments.
-          The result of the assessments leads to Method Statements being
-          prepared and issued to both the customer and to those employees who
-          will be involved in the contract on site. These Method Statements
-          identify the work to be carried out, the possible hazards that may be
-          encountered, the safe system of work to be adopted and the personal
-          protective equipment that must be utilized. On a regular basis the
+          Following site inductions, we are fully committed to updating method statements and risk assessments associated with the work if needs be in an ever present mindset of ‘safety 1st and always’. On a regular basis the
           site supervisor will carry out toolbox talks with all staff ensuring
           they are kept up to date with any changes to the work/environment, in
           which they are working.
