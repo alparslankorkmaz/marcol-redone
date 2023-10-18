@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Archivo_Black, Archivo } from "next/font/google";
+import CookieConsentBanner from "@/components/CookieBanner";
 
 const archivo_black = Archivo_Black({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <CookieConsentBanner />
       </body>
     </html>
   );
