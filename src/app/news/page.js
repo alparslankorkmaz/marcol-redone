@@ -18,7 +18,7 @@ export default function page() {
                 <h1 className="font-black lg:whitespace-nowrap lg absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 uppercase text-center text-white text-5xl lg:text-7xl tracking-widest">
                     news
                     <span className="font-archivo my-10 tracking-normal block text-xl lg:text-4xl lg:mb-4 font-light">
-                        to view all the news, please visit our <a className="underline" href="https://www.linkedin.com/company/marcol-fabrications-plastics-limited/posts/?feedView=all">LinkedIn!</a>
+                        to view all the latest news, please visit our <a className="underline" target="_blank" href="https://www.linkedin.com/company/marcol-fabrications-plastics-limited/posts/?feedView=all">LinkedIn!</a>
                     </span>
                 </h1>
             </div>
