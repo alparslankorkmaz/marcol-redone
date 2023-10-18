@@ -25,7 +25,7 @@ export default function page() {
             {/* PARTNERS */}
             <Partners />
             <div className="container max-w-7xl mx-auto">
-                <div className="flex flex-wrap justify-between items-center gap-10 py-16">
+                <div className="flex flex-wrap justify-center items-center gap-10 py-16">
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7117785739773272065" height="700" width="400" title="Embedded post"></iframe>
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7114613489922383873" height="700" width="400" title="Embedded post"></iframe>
                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7109481827840466944" height="700" width="400" title="Embedded post"></iframe>
