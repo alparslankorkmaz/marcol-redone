@@ -1,5 +1,3 @@
-// "use client";
-
 import Partners from "@/components/Partners";
 import Form from "@/components/Form";
 

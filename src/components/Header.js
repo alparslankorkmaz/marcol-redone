@@ -49,8 +49,8 @@ export default function Header() {
           <div>
             <div
               className={`flex-1 justify-self-center pb-3 lg:block lg:pb-0 lg:mt-0 ${isOpen
-                  ? "p-12 rounded-lg lg:p-0 block bg-marcol-blue lg:bg-transparent"
-                  : "hidden"
+                ? "p-12 rounded-lg lg:p-0 block bg-marcol-blue lg:bg-transparent"
+                : "hidden"
                 }`}
             >
               <ul className="font-black h-screen lg:h-auto items-center justify-center lg:flex text-3xl lg:text-sm lg:gap-7">
@@ -192,6 +192,11 @@ export default function Header() {
                       </Menu.Item>
                     </Menu.Items>
                   </Menu>{" "}
+                </li>
+                <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
+                  <Link href="/news" onClick={() => setIsOpen(false)}>
+                    news
+                  </Link>
                 </li>
                 <li className="mt-6 lg:mt-0 tracking-wider uppercase text-white text-center  lg:hover:text-marcol-blue lg:hover:bg-transparent">
                   <Link href="/contact-us" onClick={() => setIsOpen(false)}>

@@ -1,5 +1,10 @@
 import Partners from "@/components/Partners"
 
+export const metadata = {
+    title: "Privacy Policy",
+    description: "If you have any questions or inquiries about Marcol Plastics, please feel free to contact us. We are here to assist you and provide the information you need.",
+};
+
 export default function page() {
     return (
         <>
