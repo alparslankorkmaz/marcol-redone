@@ -30,6 +30,7 @@ export default function Footer() {
                     </li>
                   </ul>
                   <Link href="/contact-us">contact us</Link>
+                  <Link href="/privacy-policy">privacy policy</Link>
                 </div>
               </div>
               <div className="col-span-3 lg:col-span-1">
@@ -69,7 +70,7 @@ export default function Footer() {
                       BS48 1JJ
                     </a>
                   </div>
-                  <div className="flex underline items-center">
+                  <div className="flex items-center">
                     <img
                       src="/images/icons/phone.png"
                       alt="phone icon"
@@ -100,8 +101,15 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="bg-black text-white text-center p-5">
-          ©2023 Marcol Fabrications Ltd. All rights reserved.
+        <div className="bg-black text-white">
+          <div className="container max-w-7xl mx-auto flex justify-between items-center p-5">
+            <p className="w-fit">©2023 Marcol Fabrications Ltd. All rights reserved.</p>
+            <div className="w-20">
+              <a target="_blank" href="https://www.linkedin.com/company/marcol-fabrications-plastics-limited/?originalSubdomain=uk">
+                <img src="/images/linkedin.png" className="invert" alt="linkedin logo" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>

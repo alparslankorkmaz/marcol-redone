@@ -11,7 +11,7 @@ export default function PolicyDocuments() {
     <>
       <div className="relative">
         <img
-          src="/images/policy.jpg"
+          src="/images/policy.webp"
           alt="man in suit signing papers"
           className="min-h-screen object-cover"
         />

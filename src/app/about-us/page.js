@@ -11,7 +11,7 @@ export default function AboutUs() {
     <>
       <div className="relative">
         <img
-          src="/images/about_us.jpg"
+          src="/images/about-us.webp"
           alt="closeup pipe"
           className="min-h-screen object-cover"
         />

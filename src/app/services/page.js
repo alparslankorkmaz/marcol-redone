@@ -12,7 +12,7 @@ export default function Services() {
     <>
       <div className="relative">
         <img
-          src="/images/services.jpg"
+          src="/images/services.webp"
           alt="blueprint on paper"
           className="min-h-screen object-cover"
         />

@@ -14,7 +14,7 @@ export default function ContactUs() {
     <>
       <div className="relative">
         <img
-          src="/images/contact_us.jpg"
+          src="/images/contact-us.webp"
           alt="hands on laptop"
           className="min-h-screen object-cover"
         />

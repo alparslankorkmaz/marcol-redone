@@ -16,7 +16,7 @@ export default function EmblaCarousel() {
       <div className="embla__container">
         <div className="embla__slide relative">
           <img
-            src="/images/carousel/carousel1.jpg"
+            src="/images/carousel/carousel1.webp"
             alt="closeup pipe"
             className="min-h-screen object-cover"
           />
@@ -36,7 +36,7 @@ export default function EmblaCarousel() {
         </div>
         <div className="embla__slide relative">
           <img
-            src="/images/carousel/carousel2.jpg"
+            src="/images/carousel/carousel2.webp"
             alt="bespoke fabrication"
             className="min-h-screen object-cover"
           />
@@ -59,7 +59,7 @@ export default function EmblaCarousel() {
         </div>
         <div className="embla__slide relative">
           <img
-            src="/images/carousel/carousel3.jpg"
+            src="/images/carousel/carousel3.webp"
             alt="tanks and bunds"
             className="min-h-screen object-cover"
           />
@@ -82,7 +82,7 @@ export default function EmblaCarousel() {
         </div>
         <div className="embla__slide relative">
           <img
-            src="/images/carousel/carousel4.jpg"
+            src="/images/carousel/carousel4.webp"
             alt="pipework"
             className="min-h-screen object-cover"
           />

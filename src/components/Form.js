@@ -199,15 +199,17 @@ export default function Form() {
                     <p>01275 810022</p>
                 </div>
                 <div className="font-archivo mb-5 text-lg lg:text-xl">
-                    <p className="font-bold">Our Fax</p>
-                    <p>01275 810033</p>
-                </div>
-                <div className="font-archivo mb-5 text-lg lg:text-xl">
                     <p className="font-bold">Our Email</p>
                     <a href="mailto: info@marcolplastics.co.uk">
                         info@marcolplastics.co.uk
                     </a>
                 </div>
+                <div className="w-20">
+                    <a target="_blank" href="https://www.linkedin.com/company/marcol-fabrications-plastics-limited/?originalSubdomain=uk">
+                        <img src="/images/linkedin.png" alt="linkedin logo" />
+                    </a>
+                </div>
+
             </div>
         </div>
     </>

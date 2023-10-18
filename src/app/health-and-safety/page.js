@@ -11,7 +11,7 @@ export default function HealthAndSafety() {
     <>
       <div className="relative">
         <img
-          src="/images/health_safety.jpg"
+          src="/images/health-and-safety.webp"
           alt="safety gear hanging on the wall"
           className="min-h-screen object-cover"
         />

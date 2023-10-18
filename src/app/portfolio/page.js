@@ -1,6 +1,4 @@
 import Partners from "@/components/Partners";
-import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
 import React, { useCallback } from "react";
 import ScrubbingSystems from "@/components/ScrubbingSystems";
 import Enclosures from "@/components/Enclosures";
@@ -40,7 +38,7 @@ export default function Portfolio() {
     <>
       <div className="relative">
         <img
-          src="/images/carousel/carousel4.jpg"
+          src="/images/portfolio.webp"
           alt="man in suit signing papers"
           className="min-h-screen object-cover"
         />
