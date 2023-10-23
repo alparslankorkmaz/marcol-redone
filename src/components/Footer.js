@@ -103,7 +103,7 @@ export default function Footer() {
         </div>
         <div className="bg-black text-white">
           <div className="container max-w-7xl mx-auto flex justify-between items-center p-5">
-            <p className="w-fit">©2023 Marcol Fabrications Ltd. All rights reserved.</p>
+            <p className="w-fit">©{new Date().getFullYear()} Marcol Fabrications Ltd. All rights reserved.</p>
             <div className="w-20">
               <a target="_blank" href="https://www.linkedin.com/company/marcol-fabrications-plastics-limited/?originalSubdomain=uk">
                 <img src="/images/linkedin.png" className="invert" alt="linkedin logo" />
