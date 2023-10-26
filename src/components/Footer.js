@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="container max-w-7xl mx-auto">
             <div className="lg:w-72 mx-auto lg:mx-0 h-auto mb-10 lg:mb-20">
               <Link href="/">
-                <img src="/images/marcol_logo.png" alt="Marcol Logo" />
+                <img src="/images/marcol-logo.png" alt="Marcol Logo" />
               </Link>
             </div>
             <div className="grid grid-cols-3 gap-20 lg:gap-0">

@@ -15,7 +15,7 @@ export default function Header() {
               {/* LOGO */}
               <Link href="/">
                 <img
-                  src="/images/marcol_logo.png"
+                  src="/images/marcol-logo.png"
                   alt="Marcol Logo"
                   className="w-48 h-auto"
                 />
